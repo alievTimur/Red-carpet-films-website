@@ -19,7 +19,7 @@
 
         <li class="<?php echo (basename($_SERVER['PHP_SELF']) == 'hire.php' ? ' active' : '');?>"><a href="#">Hire</a></li>
 
-        <li class="<?php echo (basename($_SERVER['PHP_SELF']) == 'contact.php' ? ' active' : '');?>"><a href="#">Contact</a></li>
+        <li class="<?php echo (basename($_SERVER['PHP_SELF']) == 'contact.php' ? ' active' : '');?>"><a href="contact.php">Contact</a></li>
       </ul>
     </div>
   </nav>
