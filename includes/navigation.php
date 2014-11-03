@@ -1,6 +1,7 @@
 <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
     <div class="container">
       <ul class="nav navbar-nav">
+        <li class="<?php echo (basename($_SERVER['PHP_SELF']) == 'nikita' ? ' active' : '');?>"><a href="nikita">Nikita</a></li>
         <li class="<?php echo (basename($_SERVER['PHP_SELF']) == 'index.php' ? ' active' : '');?>"><a href="#">Home</a></li>
 
         <li class="<?php echo (basename($_SERVER['PHP_SELF']) == 'blog.php' ? ' active' : '');?>"><a href="#">Blog</a></li>

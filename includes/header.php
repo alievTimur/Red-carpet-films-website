@@ -6,8 +6,8 @@
   <meta name="description" content="Timur Aliev's personal website">
   <meta name="author" content="Timur Aliev">
   <meta name="keywords" content="Timur, Aliev, Southampton, University, ITO, Information, Technology, Student">
-
-  <title>| Timur Aliev's website</title>
+  <title><? echo $this->pageTitle ?> | Timur Aliev's website</title>
+  <link rel="icon" href="favicon.png">
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="css/main.css" rel="stylesheet" type="text/css">
@@ -19,3 +19,9 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
+<body>
+  <?
+    require ('includes/navigation.php');
+  ?> 
+
+  
