@@ -2,9 +2,9 @@
     <div class="container">
       <ul class="nav navbar-nav">
         <li class="<?php echo (basename($_SERVER['PHP_SELF']) == 'nikita' ? ' active' : '');?>"><a href="nikita">Nikita</a></li>
-        <li class="<?php echo (basename($_SERVER['PHP_SELF']) == 'index.php' ? ' active' : '');?>"><a href="#">Home</a></li>
+        <li class="<?php echo (basename($_SERVER['PHP_SELF']) == 'index.php' ? ' active' : '');?>"><a href="index.php">Home</a></li>
 
-        <li class="<?php echo (basename($_SERVER['PHP_SELF']) == 'blog.php' ? ' active' : '');?>"><a href="#">Blog</a></li>
+        <li class="<?php echo (basename($_SERVER['PHP_SELF']) == 'blog.php' ? ' active' : '');?>"><a href="blog.php">Blog</a></li>
 
         <li class="dropdown" class="<?php echo (basename($_SERVER['PHP_SELF']) == 'about.php' ? ' active' : '');?>">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown">About <span class="caret"></span></a>
@@ -18,7 +18,7 @@
           </ul>
         </li>
 
-        <li class="<?php echo (basename($_SERVER['PHP_SELF']) == 'hire.php' ? ' active' : '');?>"><a href="#">Hire</a></li>
+        <li class="<?php echo (basename($_SERVER['PHP_SELF']) == 'hire.php' ? ' active' : '');?>"><a href="hire.php">Hire</a></li>
 
         <li class="<?php echo (basename($_SERVER['PHP_SELF']) == 'contact.php' ? ' active' : '');?>"><a href="contact.php">Contact</a></li>
       </ul>

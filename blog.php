@@ -2,7 +2,7 @@
 <?
 	require ('includes/template.php');
 	$page = new htmlPage();
-	$page->setTitle("Contact");
+	$page->setTitle("Blog");
 	$page->streamTop();
 ?>
 
