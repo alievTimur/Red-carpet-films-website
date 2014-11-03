@@ -11,8 +11,7 @@ class htmlPage{
 	
         
     public function streamTop() {
-        require ('includes/header.php');
-	    require ('includes/navigation.php');	
+        require ('includes/header.php');	
     }    
 	
 

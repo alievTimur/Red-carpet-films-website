@@ -7,7 +7,7 @@
   <meta name="author" content="Timur Aliev">
   <meta name="keywords" content="Timur, Aliev, Southampton, University, ITO, Information, Technology, Student">
   <title><? echo $this->pageTitle ?> | Timur Aliev's website</title>
-  <link rel="icon" href="favicon.png">
+  <link rel="icon" href="img/favicon.png">
   <!-- Bootstrap -->
   <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
   <link href="css/main.css" rel="stylesheet" type="text/css">
@@ -23,5 +23,11 @@
   <?
     require ('includes/navigation.php');
   ?> 
+
+  <div class="container-fluid">
+    <div class="row" id="top">
+      <div class="col-md-12">
+      </div>
+    </div>
 
   
